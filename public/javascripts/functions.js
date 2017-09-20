@@ -25,6 +25,20 @@ jQuery(function($){
 			}
 		});
 	
+	// Intro Height
+		if( $(window).width() < 580 ){
+			var heightTotal = $(window).height();
+			$(".intro").css("height", heightTotal);
+		}else{
+			$(".intro").css("height", "100vh");
+		}
+
+		$(window).resize(function(){
+			var heightTotal = $(window).height();
+			$(".intro").css("height", heightTotal);
+			console.log("heightTotal", heightTotal);
+		});
+	
 	//Scroll
 		$(window).scroll(function(){
 			var scrollGoTop = $(window).scrollTop();
