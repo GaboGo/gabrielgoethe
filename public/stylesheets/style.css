@@ -36,6 +36,14 @@
 	header .item.home:after,
 	header .item:hover:after{width: 100%;}
 
+	.button-menu{position: absolute; width: 60px; height: 60px; background-color: rgba(21, 2, 31, 0.82); top: 0; right: 0; cursor: pointer; display: none;}
+	.button-menu .line{width: 35px; height: 1px; left: 11px; top: 23px; background: white; position: absolute; transform: rotate(0deg); -webkit-transform: rotate(0deg); transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out;}
+	.button-menu .line.line2{top: 29px;}
+	.button-menu .line.line3{top: 35px;}
+	.button-menu.active .line1{transform: rotate(40deg); -webkit-transform: rotate(40deg); top: 30px;}
+	.button-menu.active .line2{opacity: 0; left: -50%;}
+	.button-menu.active .line3{transform: rotate(-40deg); -webkit-transform: rotate(-40deg); top: 30px;}
+
 	.header-fixed{position: fixed; top: -70px; width: 100%; height: 60px; background: #15021f; z-index: 5; box-shadow: 0px 2px 0px #5b01c3; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;}
 	.header-fixed.active{top: 0;}
 	.header-fixed .logo{background: url("../images/titles/logo2.svg") no-repeat center / 130px auto; height: 60px; width: 170px; cursor: pointer; position: absolute;}
@@ -79,7 +87,7 @@
 	.interest .items{text-align: center; position: relative; z-index: 1; margin-top: 30px;}
 	.interest .item{display: inline-block; text-align: center; width: 88px; height: 113px; margin-right: 85px;}
 	.interest .item:last-child{margin-right: 0;}
-	.interest .item span{color: #fff; display: block; width: 100%; text-transform: uppercase; font-size: 16px; font-weight: 500; margin-top: 113px;}
+	.interest .item span{color: #fff; display: block; width: 100%; text-transform: uppercase; font: 11px "Montserrat"; margin-top: 113px;}
 	.interest .item.coding{background: url("../images/svg/interest/coding.svg") no-repeat center / 76px auto;}
 	.interest .item.studies{background: url("../images/svg/interest/studing.svg") no-repeat center / 76px auto;}
 	.interest .item.music{background: url("../images/svg/interest/music.svg") no-repeat center / 76px auto;}
@@ -146,7 +154,7 @@
 	.portfolio .slick-arrow{border: 0; background: url("../images/svg/next.svg") no-repeat center; width: 60px; height: 50px; cursor: pointer; font-size: 0; color: transparent; position: absolute; left: calc(50% + 250px); bottom: 0; z-index: 1;}
 	.portfolio .slick-prev{background: url("../images/svg/prev.svg") no-repeat center; left: calc(50% + 188px);}
 	.portfolio .slick-arrow:hover{opacity: 0.95;}
-	.portfolio .slick-arrow:active{opacity: 0.9;}
+	.portfolio .slick-arrow:active{opacity: 0.9; background-size: 59px;}
 	.portfolio .item h2{margin: 0 0 10px; font-size: 40px; line-height: 40px;}
 	.portfolio figure{margin: 0; width: 366px; height: 239px; position: absolute; z-index: 1; top: 60px; right: 180px; background: #2e0246; cursor: pointer;}
 	.portfolio figure img{width: 100%; box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.29);}
@@ -176,7 +184,7 @@
 	}
 	.contact .send-button:hover{opacity: 0.9;}
 	.contact .send-button span{background: url("../images/svg/send.svg") no-repeat center; width: 23px; height: 23px; position: absolute; right: 27px;}
-	.contact .logo{background: url("../images/titles/logo2.svg") no-repeat center; width: 200px; height: 30px; margin: 0 auto;}
+	.contact .logo{background: url("../images/titles/logo2.svg") no-repeat center; width: 200px; height: 30px; margin: 0 auto; z-index: 1; position: relative;}
 	.contact .social{margin: 0 auto; position: relative; width: 110px;}
 	.contact .social a{width: 40px; height: 30px; display: inline-block; margin: 30px 7px 0;}
 	.social .linkedin{background-size: 35px auto;}

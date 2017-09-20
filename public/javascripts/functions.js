@@ -3,6 +3,26 @@ jQuery(function($){
 		$(".portfolio .items").slick({
 			centerMode: true,
 			slidesToShow: 3,
+			responsive: [
+				{
+				  breakpoint: 580,
+				  settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				  }
+				}
+			]
+		});
+	
+	// Button Menu
+		$(".button-menu").click(function(){
+			if ( $(this).hasClass('active') ){
+				$(this).removeClass('active');
+				$("nav.menu").removeClass('mobile-active');
+			}else{
+				$(this).addClass('active');
+				$("nav.menu").addClass('mobile-active');
+			}
 		});
 	
 	//Scroll

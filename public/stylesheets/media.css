@@ -1,0 +1,91 @@
+@media screen and ( max-width: 980px ){
+    header .item{margin: 0 10px;}
+
+    .header-fixed .items{float: right;}
+    .header-fixed .item{margin: 0 20px;}
+    
+    .wrapper{width: calc(100% - 40px);}
+
+    .about .paragraph1,
+    .about .paragraph2{width: 100%;}
+    .about .circle4{top: 90px; left: 180px;}
+    .about .circle3{right: 20px;}
+    
+    .interest{padding: 80px 0 45px 0;}
+    .interest .item{width: 33%; margin: 0; background-position: top center !important; height: 145px;}
+    .interest .item span{margin-top: 95px;}
+
+    .skills .item{width: calc(100% / 4);}
+
+    .portfolio .item .content{opacity: 0.1;}
+
+    .contact .circle3{left: 20px;}
+    .contact .circle4{right: 60px;}
+}
+
+@media screen and (max-width: 580px){
+    header{top: 0;}
+
+    .header-fixed .items{display: none;}
+    .button-menu{display: block;}
+    
+    nav.menu{position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(30, 0, 64, 0.86); display: none;}
+    nav.menu.mobile-active{display: block;}
+    nav.menu .items{margin: auto; position: absolute; height: fit-content; top: 0; bottom: 0;}
+    nav.menu .item{width: 100%; margin: 0; padding: 20px; font-size: 20px;}
+    nav.menu .item:after{display: none;}
+
+    .intro .logo{background-size: 280px; width: 100%;}
+    .intro .down{background-size: 180px; height: 38px;}
+
+    .section-block{padding: 60px 0;}
+
+    .about .circle2{top: 60%;}
+    .about .circle3{right: -50px; bottom: 80px;}
+    .about .circle4{left: 20px;}
+    .about .bottom{font: 500 18px/26px "Montserrat";}
+    
+    .about h2,
+    .interest h2,
+    .portfolio h2.not-text{background-size: 160px;}
+
+    .interest{padding-bottom: 20px;}
+    .interest .item{height: 100px; background-size: 50px !important;}
+    .interest .item span{margin-top: 60px; font-size: 10px;}
+    .interest .item.painting{background-size: 55px !important;}
+
+    .skills{padding-bottom: 20px;}
+    .skills .wrapper{width: 100%;}
+    .skills h2{background-size: 110px;}
+    .skills .items{margin-top: 45px;}
+    .skills .item{margin-bottom: 40px;}
+    .skills .item i{font-size: 40px; height: 40px; width: 100%;}
+    .skills .item i.sketch-icon{background-size: 42px !important;}
+    .skills .item i.ionic-icon{background-size: 38px !important;}
+    .skills .item i.web-design-icon{background-size: 40px !important;}
+    .skills .item i.ghost-icon{background-size: 35px !important;}
+    .skills .item span{font-size: 10px;}
+
+    .portfolio .items{margin-top: 45px;}
+    .portfolio .bg{width: 100%; padding: 30px 30px 60px; height: auto;}
+    .portfolio figure{right: 0; top: 0; width: 100%; height: auto; position: relative;}
+    .portfolio figure img{box-shadow: none;}
+    .portfolio .item{height: auto;}
+    .portfolio .item .content{zoom: initial; top: 0; width: 100%; height: auto; display: inline-block;}
+    .portfolio .item h2{font-size: 22px; line-height: 24px;}
+    .portfolio p{font-size: 14px; font-weight: 600;}
+    .portfolio span{font: 300 10px "Montserrat"; color: white;}
+    .portfolio .item.slick-current .content{top: 0; transform: none; -webkit-transform: none; -moz-transform: none; -ms-transform: none;}
+    .portfolio .more{bottom: 20px; left: 30px;}
+    .portfolio a{right: 30px; bottom: 20px;}
+    .portfolio .slick-next{right: 10px; left: auto; top: -20px;}
+    .portfolio .slick-prev{right: 71px; left: auto; top: -20px;}
+
+    .contact h2{background-size: 270px;}
+    .contact .circle1{left: -420px;}
+    .contact .circle2{top: -40px;}
+    .contact .circle4{right: -30px; bottom: -30px;}
+    .contact .send-button{margin-bottom: 60px;}
+    .contact .social a{background-size: 30px;}
+    .contact .social .behance{background-size: 35px;}
+}
