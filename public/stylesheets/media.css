@@ -36,6 +36,9 @@
     nav.menu .item{width: 100%; margin: 0; padding: 20px; font-size: 20px;}
     nav.menu .item:after{display: none;}
 
+    .intro,
+    .intro:after{background: url("../images/bg/home_i.jpg") no-repeat center / cover;}
+    
     .intro .logo{background-size: 280px; width: 100%;}
     .intro .down{background-size: 180px; height: 38px;}
 
