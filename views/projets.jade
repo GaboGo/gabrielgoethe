@@ -1,0 +1,49 @@
+extends ./layout.jade
+
+block content
+	header.not-front
+			.deg
+			
+			.grid.grid2
+			.grid.grid1
+			
+			a(class='logo', href='/')
+
+			nav.menu
+				.items
+					a(href="/" , class="home") Home
+					a(href="sur-moi" , class="surmoi") sur moi
+					a(href="projets" , class="projets") projets
+					a(href="contact" , class="contact") contact
+
+			.menu-button
+				div
+				div
+				div
+
+			h1.title-header #{title}
+
+			.lines
+				div
+				div
+				div
+				div
+
+	.articles.section
+		.wrapper
+			each post in posts
+				article
+					.img(style="background: url('#{post.thumbnail}') no-repeat center #262a2f;")
+					.info
+						h2 #{post.title}
+						span.line
+						.bottom
+							.sep
+							p #{post.subtitle}
+							span #{post.tools}
+							a( class='button', href=('#{post.url}'), title='#{post.title}', target='_blank' )
+								span="Voir plus"
+
+			.goTop
+				.button
+					span='Aller en haut'

@@ -1,0 +1,92 @@
+extends ./layout.jade
+
+block content
+	header.not-front
+		.deg
+		
+		.grid.grid2
+		.grid.grid1
+		
+		a(class='logo', href='/')
+
+		nav.menu
+			.items
+				a(href="/" , class="home") Home
+				a(href="sur-moi" , class="surmoi") sur moi
+				a(href="projets" , class="projets") projets
+				a(href="contact" , class="contact") contact
+
+		.menu-button
+			div
+			div
+			div
+
+		h1.title-header #{title}
+
+		.lines
+			div
+			div
+			div
+			div
+
+	.description.section
+		.wrapper
+			span(class="span-title")="Lorem Ipsum Dolor"
+			span.line
+			h2.subtitle #{subtitle}
+			each p in content
+				p #{p.p}
+
+		.down(data-href="skills")
+
+	div(class="skills section", id="skills")
+		.wrapper
+			span(class="span-title")="Lorem Ipsum Dolor"
+			span.line
+			h2.subtitle='Skills'
+			div.items
+				each item in skills
+					div.card
+						div.icn(class="#{item.class}", style="background-image:url('#{item.icon}');")
+						div.tools
+							each skill in item.items
+								p #{skill.item}
+
+	.interets.section
+		.wrapper
+			span(class="span-title")="Lorem Ipsum Dolor"
+			span.line
+			h2.subtitle='INTÉRÊTS'
+			.icons
+				.icon.music
+					span Musique
+				.icon.football
+					span Football
+				.icon.study
+					span Études
+				.icon.coding
+					span Coding
+				.icon.paint
+					span Peinture
+				.icon.game
+					span Jeux vidéo
+
+			.points
+
+	.contact.section
+		.wrapper
+			span(class="span-title")="Lorem Ipsum Dolor"
+			span.line
+			h2.subtitle='RÉSEAUX SOCIAUX'
+			p #{social}
+			.items
+				a(class='linkedin', href='http://co.linkedin.com/in/leonardofunez', target='_blank')
+				a(class='behance', href='http://www.behance.net/leofunez', target='_blank')
+
+			.points
+
+			.goTop
+					.button
+						span='Aller en haut'
+
+

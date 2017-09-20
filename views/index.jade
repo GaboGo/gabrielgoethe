@@ -1,0 +1,136 @@
+extends ./layout.jade
+
+block content
+	//FRONT-PAGE
+	.front-page
+		//HEADER
+		header
+			nav.menu
+				.items.offsetElements
+					.item(data-position="intro", class="active home") HOME
+					.item(data-position="about") ABOUT ME
+					.item(data-position="interest") INTERESTS
+					.item(data-position="skills") SKILLS
+					.item(data-position="portfolio") PORTFOLIO
+					.item(data-position="contact") CONTACT
+		.header-fixed
+			.logo(data-position="intro")
+			.items.offsetElements
+				.item(data-position="intro") HOME
+				.item(data-position="about") ABOUT ME
+				.item(data-position="interest") INTERESTS
+				.item(data-position="skills") SKILLS
+				.item(data-position="portfolio") PORTFOLIO
+				.item(data-position="contact") CONTACT
+		//END HEADER
+
+		//INTRO
+		#intro.intro
+			.gradient
+			.logo
+				h1(class="not-text") Leonardo Funez
+			.social
+				a(href="#{about.behance}", class="behance", title="Behance", target="_blank")
+				a(href="#{about.linkedin}", class="linkedin", title="LinkedIn", target="_blank")
+			.down
+		//END INTRO
+		
+		//ABOUT
+		#about.about(class="section-block")
+			.circle.circle1
+			.circle.circle2
+			.circle.circle_white.circle3
+			.circle.circle_white.circle4
+			.wrapper
+				h2(class="not-text") About Me
+				.wrapper
+					.text
+						.paragraph1
+							p #{about.paragraph1}
+							p #{about.paragraph2}
+							p #{about.paragraph3}
+							p #{about.paragraph4}						
+						.paragraph2
+							p #{about.paragraph5}
+							p #{about.paragraph6}
+							.social
+								a(href="#{about.behance}", class="behance", title="Behance", target="_blank")
+								a(href="#{about.linkedin}", class="linkedin", title="Linkedin", target="_blank")
+					p(class="bottom") #{about.description}
+		//END ABOUT
+		
+		//INTEREST
+		#interest.interest(class="section-block")
+			.gradient
+			h2(class="not-text") Interests
+			.items
+				each interest in interests
+					.item(class="#{interest.class}")
+						span #{interest.name}
+		//END INTEREST
+
+		//SKILLS
+		//- #skills.skills(class="section-block")
+		//- 	h2(class="not-text") Skills
+		//- 	.wrapper
+		//- 		.items
+		//- 			each skill in skills
+		//- 				.item(class="#{skill.class}")
+		//- 					p #{skill.list}
+		//END SKILLS
+
+		//SKILLS
+		#skills.skills(class="section-block")
+			h2(class="not-text") Skills
+			.wrapper
+				.items
+					each skill in skills
+						.item
+							i(class="#{skill.class}")
+							span #{skill.name}
+		//END SKILLS
+		
+		//PORFOLIO
+		#portfolio.portfolio(class="section-block")
+			h2(class="not-text") Portfolio
+			.items
+				each project in projects
+					.item
+						.content
+							figure(data-image="#{project.detail}", data-title="#{project.name}", data-description="#{project.description}", data-tools="#{project.tools}")
+								img(src="images/projets/#{project.photo}", alt="#{project.name}")
+							.bg
+								a(href="#{project.behance}", target="_blank", title="#{project.name}")
+								.more(data-image="#{project.detail}", data-title="#{project.name}", data-description="#{project.description}", data-tools="#{project.tools}") View More
+								.info
+									h2 #{project.name}
+									p #{project.description}
+									span #{project.tools}
+		//END PORTFOLIO
+		
+		//CONTACT
+		#contact.contact(class="section-block")
+			.circle.circle1
+			.circle.circle2
+			.circle.circle_white.circle3
+			.circle.circle_white.circle4
+
+			h2(class="not-text") Want to say hello?
+			a(href="mailto:leonardofunezdelchiaro@gmail.com?Subject=Hello", class="send-button", target="_top") Send me a message
+				span
+
+			.logo
+			.social
+				a(href="#{about.behance}", class="behance", title="Behance", target="_blank")
+				a(href="#{about.linkedin}", class="linkedin", title="Linkedin", target="_blank")
+		//END CONTACT
+	//END FRONT-PAGE
+	
+	//DETAIL PROJECT
+	.detail
+		.header
+			.logo
+			h2
+			.close
+		.overlay
+		.image

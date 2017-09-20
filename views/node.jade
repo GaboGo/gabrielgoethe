@@ -1,0 +1,26 @@
+extends ./layout.jade
+
+block content
+	.projets.photo
+		.info
+			h1 #{title}
+			p - #{subtitle} -
+
+		.deg
+		.grid.grid2
+		.grid.grid1
+
+	.images
+		.sep
+			.line.deg
+			
+		each post in images
+			.item
+				h2 #{post.title}
+				img(src='#{post.image}')
+			
+			.sep
+				.line.deg
+
+	.gotop
+		p.button aller en haut

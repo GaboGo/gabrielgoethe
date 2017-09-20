@@ -1,0 +1,251 @@
+{   
+    "about" :
+        {   
+            "paragraph1" : "I am a computer engineer and web/mobile applications programmer with a solid professional experience in the technology’s world.",
+            "paragraph2" : "I love the responsibility, the teamwork and creativity. I think these three factors are very important to be a professional.",
+            "paragraph3" : "My professional experience and the love for what I do, have given me the skills to develop some truly fantastic projects and these are very important for the lives of many people.",
+            "paragraph4" : "Since 2012 I lead the design and the development of the most important digital journals in the Colombian Caribbean coast like Seguimiento.co, ZonaCero and El Heraldo on Drupal CMS.",
+            "paragraph5" : "In addition, I work on many Wordpress websites/Blogs and hybrid applications on Ionic framework. Although I love to design and build my own templates for projects, I have the experience working with numerous layouts and websites built by others designers and programmers.",
+            "paragraph6" : "Creativity and commitment are really important qualities in my work, and the day-to-day training have given me excellent results in my projects and my life.",
+            "description" : "Fighting for my goals is something I love no matter the circumstances and I think nothing is impossible in life",
+            "behance" : "http://behance.net/leofunez",
+            "linkedin" : "http://co.linkedin.com/in/leonardofunez",
+            "contact" : "Want to say <span>Hello</span>?",
+            "email" : "leonardofunezdelchiaro@gmail.com"
+        }
+    ,
+    "interests" : [
+        {
+            "name" : "Coding",
+            "class" : "coding"
+        },
+        {
+            "name" : "Studies",
+            "class" : "studies"
+        },
+        {
+            "name" : "Music",
+            "class" : "music"
+        },
+        {
+            "name" : "Soccer",
+            "class" : "soccer"
+        },
+        {
+            "name" : "Painting",
+            "class" : "painting"
+        },
+        {
+            "name" : "Video Games",
+            "class" : "game"
+        }
+    ],
+    "skills" :[
+        {"name": "HTML5" , "class": "devicon-html5-plain"},
+        {"name": "Javascript" , "class": "devicon-javascript-plain"},
+        {"name": "JQuery" , "class": "devicon-jquery-plain"},
+        {"name": "CSS3" , "class": "devicon-css3-plain"},
+        {"name": "SASS" , "class": "devicon-sass-original"},
+        {"name": "LESS" , "class": "devicon-less-plain-wordmark"},
+        {"name": "Gulp JS" , "class": "devicon-gulp-plain"},
+        {"name": "Angular JS" , "class": "devicon-angularjs-plain"},
+        {"name": "Vue JS" , "class": "devicon-vuejs-plain"},
+        {"name": "Ionic" , "class": "ionic-icon"},
+        {"name": "GIT" , "class": "devicon-git-plain"},
+        {"name": "PHP" , "class": "devicon-php-plain"},
+        {"name": "MySQL" , "class": "devicon-mysql-plain"},
+        {"name": "Express" , "class": "devicon-express-original"},
+        {"name": "Drupal 7/8" , "class": "devicon-drupal-plain"},
+        {"name": "Wordpress" , "class": "devicon-wordpress-plain"},
+        {"name": "Ghost" , "class": "ghost-icon"},
+        {"name": "Web Design" , "class": "web-design-icon"},
+        {"name": "Sketch" , "class": "sketch-icon"},
+        {"name": "Photoshop" , "class": "devicon-photoshop-plain"},
+        {"name": "Illustrator" , "class": "devicon-illustrator-plain"},
+        {"name": "MAC OSX" , "class": "devicon-apple-original"},
+        {"name": "Linux" , "class": "devicon-linux-plain"},
+        {"name": "Windows" , "class": "devicon-windows8-original"}
+    ],
+    "skills_" : [
+        {
+            "list" : "Web Design / Web Development / Mobile Design / Responsive Design",
+            "class" : "web_design"
+        },
+        {
+            "list" : "Sketch / User Interface / User Experience",
+            "class" : "sketch"
+        },
+        {
+            "list" : "HTML5 / CSS3 / Javascript / Jquery / Motion Graphics / SEO",
+            "class" : "html5"
+        },
+        {
+            "list" : "Angular JS / HTML5 / CSS3 / Javascript / REST API",
+            "class" : "angular"
+        },
+        {
+            "list" : "CSS3 / SASS / Gulp JS",
+            "class" : "sass"
+        },
+        {
+            "list" : "NodeJS / Express / Ghost / Jade / Handlebars JS",
+            "class" : "node"
+        },
+        {
+            "list" : "Apps / Ionic / AngularJS / Rest API",
+            "class" : "ionic"
+        },
+        {
+            "list" : "PHP / MySQL",
+            "class" : "mysql"
+        },
+        {
+            "list" : "CMS / Drupal / Wordpress / Ghost",
+            "class" : "drupal"
+        },
+        {
+            "list" : "Git / Github / Bitbucket",
+            "class" : "git"
+        },
+        {
+            "list" : "After Effects / Premier / Audition / Illustrator / Photoshop",
+            "class" : "adobe"
+        },
+        {
+            "list" : "OS X / Linux / Windows",
+            "class" : "os"
+        },
+        {
+            "list" : "Final Cut / After Effects / Logic Pro / Ableton Live / Pro Tools / FL Studio",
+            "class" : "production"
+        }
+    ],
+    "projects" : [
+        {
+            "name" : "The Guardian",
+            "photo" : "theguardian/theguardian_thumbnail.jpg",
+            "detail" : "theguardian/theguardian.jpg",
+            "description" : "Website Concept Redesign",
+            "tools" : "Sketch / Illustrator",
+            "category" : "Digital Journal",
+            "behance" : "https://www.behance.net/gallery/46164995/The-Guardian-Web-Redesign-Concept"
+        },
+        {
+            "name" : "Colombian Soccer Federation",
+            "photo" : "colombia/colombia_thumbnail.jpg",
+            "detail" : "colombia/colombia.jpg",
+            "description" : "Landing Page Design Concept",
+            "tools" : "Sketch / Illustrator",
+            "category" : "Landing Page",
+            "behance" : "https://www.behance.net/gallery/45235963/Federacion-Colombiana-de-Futbol-Landing-Page-Concept"
+        },
+        {
+            "name" : "The New York Times",
+            "photo" : "nytimes/nytimes_thumbnail.jpg",
+            "detail" : "nytimes/nytimes.jpg",
+            "description" : "Drupal 8 Website Concept",
+            "tools" : "Drupal 8 / HTML5 / Twig / MySQL",
+            "category" : "Digital Journal",
+            "behance" : "https://www.behance.net/gallery/44816925/The-New-York-Times-Drupal-8-Website-Concept"
+        },
+        {
+            "name" : "French Soccer Federation",
+            "photo" : "fff/fff_thumbnail.jpg",
+            "detail" : "fff/fff.jpg",
+            "description" : "Website Concept Redesign",
+            "tools" : "Sketch / After Effects",
+            "category" : "Website",
+            "behance" : "https://www.behance.net/gallery/42971301/Fdration-Francaise-de-Football-Website-Concept"
+        },
+        {
+            "name" : "La Presse",
+            "photo" : "lapresse/lapresse_thumbnail.jpg",
+            "detail" : "lapresse/lapresse.jpg",
+            "description" : "Website Concept Redesign",
+            "tools" : "Sketch / After Effects / Illustrator",
+            "category" : "Digital Journal",
+            "behance" : "https://www.behance.net/gallery/41928025/La-Presse-Concept-Redesign"
+        },
+        {
+            "name" : "Seguimiento.co",
+            "photo" : "seguimiento/seguimiento_thumbnail.jpg",
+            "detail" : "seguimiento/seguimiento.jpg",
+            "description" : "Web Development",
+            "tools" : "Drupal 7 / PHP / MySQL / Responsive Design / Sketch",
+            "category" : "Digital Journal",
+            "behance" : "https://www.behance.net/gallery/21317649/Seguimiento-Journal-Digital-Colombien"
+        },
+        {
+            "name" : "Dialog Insight",
+            "photo" : "dialog/dialog_thumbnail.jpg",
+            "detail" : "dialog/dialog.jpg",
+            "description" : "Website Concept Redesign",
+            "tools" : "Sketch",
+            "category" : "Corporate Website",
+            "behance" : "https://www.behance.net/gallery/41848301/Dialog-Insight-Website-concept"
+        },
+        {
+            "name" : "Zona Cero",
+            "photo" : "zonacero/zonacero_thumbnail.jpg",
+            "detail" : "zonacero/zonacero.jpg",
+            "description" : "Web Development",
+            "tools" : "Drupal 7 / PHP / MySQL / Responsive Design",
+            "category" : "Digital Journal",
+            "behance" : "https://www.behance.net/gallery/30061465/Zona-Cero-Journal-digital-colombien"
+        },
+        {
+            "name" : "Église Cieux Ouverts",
+            "photo" : "cieuxouverts/cieuxouverts_thumbnail.jpg",
+            "detail" : "cieuxouverts/cieuxouverts.jpg",
+            "description" : "Wordpress Website",
+            "tools" : "Wordpress / PHP / MySQL / Responsive Design",
+            "category" : "Corporate Website",
+            "behance" : "https://www.behance.net/gallery/40209243/Eglise-Cieux-Ouverts"
+        },
+        {
+            "name" : "La Previa",
+            "photo" : "laprevia/laprevia_thumbnail.jpg",
+            "detail" : "laprevia/laprevia.jpg",
+            "description" : "Web Development",
+            "tools" : "Drupal 7 / PHP / MySQL / Responsive Design",
+            "category" : "Digital Journal",
+            "behance" : "https://www.behance.net/gallery/40209243/Eglise-Cieux-Ouverts"
+        },
+        {
+            "name" : "Hunting to the Lion Fish",
+            "photo" : "pez_leon/pez_leon_thumbnail.jpg",
+            "detail" : "pez_leon/pez_leon.jpg",
+            "description" : "Special Digital Multimedia",
+            "tools" : "HTML5 / CSS3 / Jquery / Parallax",
+            "category" : "Graphic Report",
+            "behance" : "https://www.behance.net/gallery/38809423/A-la-chasse-du-poisson-lion-Spcial-Multimdia"
+        },
+        {
+            "name" : "Ebola",
+            "photo" : "ebola/ebola_thumbnail.jpg",
+            "detail" : "ebola/ebola.jpg",
+            "description" : "Special Digital Multimedia",
+            "tools" : "HTML5 / CSS3 / Jquery / JqueryUI",
+            "category" : "Graphic Report",
+            "behance" : "https://www.behance.net/gallery/38811393/Ebola-Spcial-Multimdia"
+        },
+        {
+            "name" : "Martha Villalba",
+            "photo" : "martha/martha_thumbnail.jpg",
+            "detail" : "martha/martha.jpg",
+            "description" : "Web Development",
+            "tools" : "Drupal 7 / PHP / MySQL / Responsive Design",
+            "category" : "Personal Website",
+            "behance" : "https://www.behance.net/gallery/21495959/Martha-Villalba"
+        },
+        {
+            "name" : "World Cup 2014",
+            "photo" : "mundial2014/mundial2014_thumbnail.jpg",
+            "detail" : "mundial2014/mundial2014.jpg",
+            "description" : "Web Development",
+            "tools" : "Drupal 7 / PHP / MySQL / Responsive Design",
+            "category" : "Sport news",
+            "behance" : "https://www.behance.net/gallery/38813517/Coupe-du-Monde-Bresil-2014-Drupal-7-Website"
+        }
+    ]
+}
