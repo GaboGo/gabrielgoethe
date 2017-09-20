@@ -36,7 +36,6 @@ jQuery(function($){
 		$(window).resize(function(){
 			var heightTotal = $(window).height();
 			$(".intro").css("height", heightTotal);
-			console.log("heightTotal", heightTotal);
 		});
 	
 	//Scroll

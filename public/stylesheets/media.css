@@ -18,6 +18,7 @@
     .skills .item{width: calc(100% / 4);}
 
     .portfolio .item .content{opacity: 0.1;}
+    .detail .image{width: 100%;}
 
     .contact .circle3{left: 20px;}
     .contact .circle4{right: 60px;}
@@ -80,6 +81,7 @@
     .portfolio a{right: 30px; bottom: 20px;}
     .portfolio .slick-next{right: 10px; left: auto; top: -20px;}
     .portfolio .slick-prev{right: 71px; left: auto; top: -20px;}
+    .detail .logo{display: none;}
 
     .contact h2{background-size: 270px;}
     .contact .circle1{left: -420px;}
