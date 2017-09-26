@@ -19,6 +19,11 @@ router.get('/', function(req, res) {
 	});
 });
 
+router.get('/*', function(req, res){
+	console.log("***");
+	res.redirect('/');
+});
+
 // 404
 router.use(function(req, res){
 	res.status(400);
