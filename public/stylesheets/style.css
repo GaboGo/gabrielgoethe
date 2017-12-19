@@ -35,7 +35,7 @@
 	header .item.home:after,
 	header .item:hover:after{width: 100%;}
 
-	.button-menu{position: absolute; width: 60px; height: 60px; background-color: rgba(21, 2, 31, 0.82); top: 0; right: 0; cursor: pointer; display: none;}
+	.button-menu{position: absolute; width: 60px; height: 60px; background-color:  #000000; top: 0; right: 0; cursor: pointer; display: none;}
 	.button-menu .line{width: 35px; height: 1px; left: 11px; top: 23px; background: white; position: absolute; transform: rotate(0deg); -webkit-transform: rotate(0deg); transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out;}
 	.button-menu .line.line2{top: 29px;}
 	.button-menu .line.line3{top: 35px;}
