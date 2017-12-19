@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="647px" height="647px" viewBox="0 0 647 647" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>Combined Shape</title>
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>circle1</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="0%" y1="46.1309288%" x2="100%" y2="48.3933812%" id="linearGradient-1">
-            <stop stop-color="#3900A0" offset="0%"></stop>
-            <stop stop-color="#9502FF" offset="100%"></stop>
+        <linearGradient x1="2.734375%" y1="46.1927927%" x2="100%" y2="48.3933812%" id="linearGradient-1">
+            <stop stop-color="#A01F00" offset="0%"></stop>
+            <stop stop-color="#FC5702" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-Landscape" transform="translate(-565.000000, -912.000000)" fill="url(#linearGradient-1)">
-            <g id="About-Me" transform="translate(-72.000000, 761.000000)">
-                <path d="M960.5,798 C1139.16412,798 1284,653.164117 1284,474.5 C1284,295.835883 1139.16412,151 960.5,151 C781.835883,151 637,295.835883 637,474.5 C637,653.164117 781.835883,798 960.5,798 Z M961.226966,720.941573 C1096.9314,720.941573 1206.94157,610.931396 1206.94157,475.226966 C1206.94157,339.522536 1096.9314,229.51236 961.226966,229.51236 C825.522536,229.51236 715.51236,339.522536 715.51236,475.226966 C715.51236,610.931396 825.522536,720.941573 961.226966,720.941573 Z" id="Combined-Shape"></path>
-            </g>
+        <g id="circle1" fill-rule="nonzero" fill="url(#linearGradient-1)">
+            <path d="M323.5,647 C144.835883,647 0,502.164117 0,323.5 C0,144.835883 144.835883,0 323.5,0 C502.16412,0 647,144.835883 647,323.5 C647,502.164117 502.16412,647 323.5,647 Z M324.226966,569.941573 C459.9314,569.941573 569.94157,459.931396 569.94157,324.226966 C569.94157,188.522536 459.9314,78.51236 324.226966,78.51236 C188.522536,78.51236 78.51236,188.522536 78.51236,324.226966 C78.51236,459.931396 188.522536,569.941573 324.226966,569.941573 Z" id="Combined-Shape"></path>
         </g>
     </g>
 </svg>

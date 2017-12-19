@@ -1,5 +1,5 @@
 /* GLOBALS */
-	body{font: 15px "Rajdhani"; background: #5f01c7;}
+	body{font: 15px "Rajdhani"; background: #FC5702;}
 
 	*{box-sizing: border-box;}
 	*:focus,
@@ -9,14 +9,13 @@
 	.section-block{width: 100%; padding: 160px 0; position: relative;}
 	.not-text{font-size: 0; color: transparent; margin: 0; z-index: 1; position: relative; min-height: 33px;}
 	.wrapper{width: 850px; margin: 0 auto; position: relative;}
-	.social .behance{background: url("../images/svg/behance.svg") no-repeat center / 100% auto;}
 	.social .linkedin{background: url("../images/svg/linkedin.svg") no-repeat center / 25px auto;} 
 
 	.gradient{position: absolute; width: 100%; height: 100%; opacity: 0.5; z-index: 1; top: 0; left: 0;
-		background: -webkit-linear-gradient(to right, #004AA0 , #C900C7);
-		background: -o-linear-gradient(to right, #004AA0 , #C900C7);
-		background: -moz-linear-gradient(to right, #004AA0 , #C900C7);
-		background: linear-gradient(to right, #004AA0 , #C900C7);
+		background: -webkit-linear-gradient(to right, #A01F00 , #FC5702);
+		background: -o-linear-gradient(to right, #A01F00 , #FC5702);
+		background: -moz-linear-gradient(to right, #A01F00 , #FC5702);
+		background: linear-gradient(to right, #A01F00 , #FC5702);
 	}
 /* END GLOBALS */
 
@@ -29,10 +28,10 @@
 	header{position: absolute; width: 100%; text-align: center; color: #fff; top: 50px; z-index: 2;}
 	header .item{display: inline-block; text-transform: uppercase; font-size: 15px; margin: 0 25px; padding: 0 8px; cursor: pointer; position: relative;}
 	header .item:after{content: ""; position: absolute; width: 0; height: 4px; background: #b201c3; left: 0; bottom: -6px; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;
-		background: -webkit-linear-gradient(left, #7900A1, #C900C7);
-		background: -moz-linear-gradient(left, #7900A1, #C900C7);
-		background: -o-linear-gradient(left, #7900A1, #C900C7);
-		background: linear-gradient(to right, #7900A1, #C900C7);}
+		background: -webkit-linear-gradient(left, #A01F00, #FC5702);
+		background: -moz-linear-gradient(left, #A01F00, #FC5702);
+		background: -o-linear-gradient(left, #A01F00, #FC5702);
+		background: linear-gradient(to right, #A01F00, #FC5702);}
 	header .item.home:after,
 	header .item:hover:after{width: 100%;}
 
@@ -41,10 +40,11 @@
 	.button-menu .line.line2{top: 29px;}
 	.button-menu .line.line3{top: 35px;}
 	.button-menu.active .line1{transform: rotate(40deg); -webkit-transform: rotate(40deg); top: 30px;}
+
 	.button-menu.active .line2{opacity: 0; left: -50%;}
 	.button-menu.active .line3{transform: rotate(-40deg); -webkit-transform: rotate(-40deg); top: 30px;}
 
-	.header-fixed{position: fixed; top: -70px; width: 100%; height: 60px; background: #15021f; z-index: 5; box-shadow: 0px 2px 0px #5b01c3; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;}
+	.header-fixed{position: fixed; top: -70px; width: 100%; height: 60px; background: #000000; z-index: 5; box-shadow: 0px 2px 0px #FC5702; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;}
 	.header-fixed.active{top: 0;}
 	.header-fixed .logo{background: url("../images/titles/logo2.svg") no-repeat center / 130px auto; height: 60px; width: 170px; cursor: pointer; position: absolute;}
 	.header-fixed .items{text-align: center;}
@@ -64,12 +64,12 @@
 /* END INTRO */
 
 /* ABOUT */
-	.about{background: #15021F; overflow: hidden;}
+	.about{background: #000000; overflow: hidden;}
 	.about h2{background: url("../images/titles/about.svg") no-repeat center;}
 	.about .text{color: #fff; font: 100 14px/28px "Montserrat"; margin: 95px 0 60px; width: 100%; display: inline-block;}
 	.about .paragraph1{width: 47%; float: left}
 	.about .paragraph2{width: 47%; float: right}
-	.about .bottom{color: #9200FF; text-align: center; max-width: 500px; font: 500 22px "Montserrat"; margin: 0 auto;}
+	.about .bottom{color: #FC5702; text-align: center; max-width: 500px; font: 500 22px "Montserrat"; margin: 0 auto;}
 	.about .social a{width: 30px; height: 20px; display: inline-block; margin-right: 15px;}
 	.about .social a.linkedin{background-size: 26px auto;}
 	.about .social a:hover{opacity: 0.8;}
@@ -81,7 +81,7 @@
 /* END ABOUT */
 
 /* INTEREST */
-	.interest{background: url("../images/bg/about.jpg") no-repeat center / cover #15021F; padding: 80px 0 80px 0;}
+	.interest{background: url("../images/bg/about.jpg") no-repeat center / cover #000000; padding: 80px 0 80px 0;}
 	.interest .gradient{opacity: 0.8;}
 	.interest h2{background: url("../images/titles/interest.svg") no-repeat center; top: 0px;}
 	.interest .items{text-align: center; position: relative; z-index: 1; margin-top: 30px;}
@@ -92,7 +92,7 @@
 	.interest .item.studies{background: url("../images/svg/interest/studing.svg") no-repeat center / 76px auto;}
 	.interest .item.music{background: url("../images/svg/interest/music.svg") no-repeat center / 76px auto;}
 	.interest .item.soccer{background: url("../images/svg/interest/football.svg") no-repeat center / 70px auto;}
-	.interest .item.painting{background: url("../images/svg/interest/painting.svg") no-repeat center / 70px auto;}
+	.interest .item.painting{background: url("../images/svg/interest/airplane.svg") no-repeat center / 70px auto;}
 	.interest .item.game{background: url("../images/svg/interest/game2.svg") no-repeat center / 70px auto;}
 /* END INTEREST */
 
@@ -101,7 +101,7 @@
 	.skills h2{background: url("../images/titles/skills.svg") no-repeat center;}
 	.skills .items{margin-top: 95px; display: inline-block; width: 100%; text-align: center;}
 	.skills .item{width: calc(100% / 6); text-align: center; display: inline-block; height: auto; vertical-align: top; margin: 0 0 60px 0;}
-	.skills .item i{font-size: 60px; height: 60px; width: 70px; display: block; margin: auto; background: -webkit-linear-gradient(left,#7907ff,#a900ff); background: -o-linear-gradient(left,#7907ff,#a900ff); background: linear-gradient(to right,#7907ff,#a900ff); background-clip: border-box; -webkit-background-clip: text !important; -webkit-text-fill-color: transparent;}
+	.skills .item i{font-size: 60px; height: 60px; width: 70px; display: block; margin: auto; background: -webkit-linear-gradient(left,#A01F00,#FC5702); background: -o-linear-gradient(left,#A01F00,#FC5702); background: linear-gradient(to right,#A01F00,#FC5702); background-clip: border-box; -webkit-background-clip: text !important; -webkit-text-fill-color: transparent;}
 	.skills .item i.ionic-icon{background: url("../images/svg/skills/ionic.svg") no-repeat center / 55px auto !important;}
 	.skills .item i.ghost-icon{background: url("../images/svg/skills/ghost.svg") no-repeat center / 48px auto !important;}
 	.skills .item i.web-design-icon{background: url("../images/svg/skills/web_design.svg") no-repeat center / 55px auto !important;}
@@ -123,11 +123,11 @@
 	.skills .adobe{background: url("../images/svg/skills/adobe.svg") no-repeat 0 center / 58px auto;}
 	.skills .os{background: url("../images/svg/skills/osx.svg") no-repeat 0 center / 54px auto;}
 	.skills .production{background: url("../images/svg/skills/sound1.svg") no-repeat 0 center / 60px auto; margin-bottom: 0;}
-	.skills p{text-transform: uppercase; font: 400 11px "Montserrat"; color: #15021F; margin: 0; line-height: 18px; display: table-cell; vertical-align: middle;} */
+	.skills p{text-transform: uppercase; font: 400 11px "Montserrat"; color: #000000; margin: 0; line-height: 18px; display: table-cell; vertical-align: middle;} */
 /* END SKILLS */
 
 /* PORTFOLIO */
-	.portfolio{background: #15021F;}
+	.portfolio{background: #000000;}
 	.portfolio h2.not-text{background: url("../images/titles/portfolio.svg") no-repeat center;}
 	.portfolio .items{margin-top: 95px; position: relative;}
 	.portfolio .item{width: 578px; height: 618px; position: relative;}
@@ -156,31 +156,31 @@
 	.portfolio .slick-arrow:hover{opacity: 0.95;}
 	.portfolio .slick-arrow:active{opacity: 0.9; background-size: 59px;}
 	.portfolio .item h2{margin: 0 0 10px; font-size: 40px; line-height: 40px;}
-	.portfolio figure{margin: 0; width: 366px; height: 239px; position: absolute; z-index: 1; top: 60px; right: 180px; background: #2e0246; cursor: pointer;}
+	.portfolio figure{margin: 0; width: 366px; height: 194px; position: absolute; z-index: 1; top: 60px; right: 180px; background: #000000; cursor: pointer;}
 	.portfolio figure img{width: 100%; box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.29);}
 	.portfolio figure:hover{opacity: 0.9;}
 	.portfolio p{font-size: 16px; margin: 0;}
 	.portfolio .category{position: absolute; top: 92px; text-align: right; right: 86px; font-size: 14px; transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg);}
-	.portfolio span{font-size: 14px; color: #FF14FB;}
+	.portfolio span{font-size: 14px; color: #000000;}
 	.portfolio .more{font-size: 12px; cursor: pointer; background: url("../images/svg/view_more.svg") no-repeat 96% 4px; width: 85px; position: absolute; bottom: 54px; text-transform: uppercase; left: 60px; color: #fff;}
 	.portfolio .more:hover{background-position: 100% 4px;}
-	.portfolio a{background: url("../images/svg/behance.svg") no-repeat center / 100% auto; position: absolute; width: 30px; height: 20px; right: 54px; bottom: 54px;}
+	.portfolio a{background: url("../images/svg/visible.svg") no-repeat center / 100% auto; position: absolute; width: 30px; height: 20px; right: 54px; bottom: 54px;}
 	.portfolio a:hover{opacity: 0.8;}
 	.portfolio .bg{float: right; position: relative; width: 468px; height: 618px; padding: 366px 60px 60px 60px; color: #fff; text-transform: uppercase;
-		background: -webkit-linear-gradient(left, #7B00A0, #9502FF);
-		background: -moz-linear-gradient(left, #7B00A0, #9502FF);
-		background: -o-linear-gradient(left, #7B00A0, #9502FF);
-		background: linear-gradient(to right, #7B00A0, #9502FF);}
+		background: -webkit-linear-gradient(left, #A01F00 , #FC5702);
+		background: -moz-linear-gradient(left, #A01F00 , #FC5702);
+		background: -o-linear-gradient(left, #A01F00 , #FC5702);
+		background: linear-gradient(to right, #A01F00 , #FC5702);}
 /* END PORTFOLIO */
 
 /* CONTACT */
-	.contact{background: #190028; text-align: center; padding-bottom: 100px; overflow: hidden;}
+	.contact{background: #000000; text-align: center; padding-bottom: 100px; overflow: hidden;}
 	.contact h2{background: url("../images/titles/hello.svg") no-repeat center; margin-bottom: 30px;}
 	.contact .send-button{color: #fff; text-transform: uppercase; border-radius: 6px; padding: 16px 60px 14px 25px; display: inline-block; position: relative; margin-bottom: 100px;
-		background: -webkit-linear-gradient(left, #7B00A0, #9502FF);
-		background: -moz-linear-gradient(left, #7B00A0, #9502FF);
-		background: -o-linear-gradient(left, #7B00A0, #9502FF);
-		background: linear-gradient(to right, #7B00A0, #9502FF);
+		background: -webkit-linear-gradient(left, #A01F00 , #FC5702);
+		background: -moz-linear-gradient(left, #A01F00 , #FC5702);
+		background: -o-linear-gradient(left, #A01F00 , #FC5702);
+		background: linear-gradient(to right, #A01F00 , #FC5702);
 	}
 	.contact .send-button:hover{opacity: 0.9;}
 	.contact .send-button span{background: url("../images/svg/send.svg") no-repeat center; width: 23px; height: 23px; position: absolute; right: 27px;}
@@ -198,10 +198,10 @@
 
 /* DETAIL */
 	.detail{position: fixed; left: 0; top: 0; overflow: auto; width: 100%; height: 100%; z-index: 10; display: none;}
-	.detail .logo{background: url("../images/titles/logo2.svg") no-repeat center / 130px rgb(91, 1, 195); width: 170px; height: 60px; margin: 0 auto; float: left; margin-right: 20px;}
+	.detail .logo{background: url("../images/titles/logo2.svg") no-repeat center / 130px #FC5702; width: 170px; height: 60px; margin: 0 auto; float: left; margin-right: 20px;}
 	.detail .overlay{width: 100%; height: 100%; background: rgba(0, 0, 0, 0.83); position: fixed; left: 0; top: 0;}
 	.detail.active{display: block;}
-	.detail .close{background: url("../images/svg/close.svg") no-repeat center / 30px #5b01c3; position: absolute; right: 0; top: 0; cursor: pointer; height: 60px; width: 60px; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
+	.detail .close{background: url("../images/svg/close.svg") no-repeat center / 30px #FC5702; position: absolute; right: 0; top: 0; cursor: pointer; height: 60px; width: 60px; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
 	.detail .close:hover{background-size: 25px auto;}
 	.detail .image{overflow: auto; width: 1000px; margin: 60px auto 0; position: relative; z-index: 1;}
 	.detail img{width: 100%; height: auto;}
