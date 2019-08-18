@@ -1,11 +1,11 @@
 {   
     "about" :
         {   
-            "paragraph1" : "I am a computer engineer and web/mobile applications programmer with a solid professional experience in the technology’s world.",
-            "paragraph2" : "I love the responsibility, the teamwork and creativity. I think these three factors are very important to be a professional.",
+            "paragraph1" : "I am a system engineer and web/mobile developer with a solid professional experience in the technology’s world.",
+            "paragraph2" : "I believe responsibility, teamwork and creativity are vital aspects to consider in any working field.",
             "paragraph3" : "My professional experience and the love for what I do, have given me the skills to develop some truly fantastic projects and these are very important for the lives of many people.",
-            "paragraph4" : "Since 2012 I lead the web development of many applications in the Colombian Caribbean coast like 3222222 Satelital, Pilas con el voto, Taerobics and 3555555 Satelital in Lima, Peru.",
-            "paragraph5" : "In addition, I work on many Wordpress websites/Blogs and hybrid applications on Ionic framework. I have the experience working with numerous layouts and websites built by others designers and programmers.",
+            "paragraph4" : "Since 2012 I lead the development of many applications in the Colombian Caribbean coast like 3222222 Satelital, Pilas con el voto, Taerobics and 3555555 Satelital in Lima, Peru.",
+            "paragraph5" : "In addition, I have worked on many Wordpress websites/Blogs and hybrid mobile applications with Ionic framework. I have the experience working with numerous layouts and websites built by others designers and developers.",
             "paragraph6" : "Creativity and commitment are really important qualities in my work, and the day-to-day training have given me excellent results in my projects and my life.",
             "description" : "The only person you should try to be better than, is the person you were yesterday, that's why I keep moving forward and try to be better day by day.",
             "linkedin" : "http://co.linkedin.com/in/gabrielgoethe",
@@ -45,7 +45,7 @@
         {"name": "JQuery" , "class": "devicon-jquery-plain"},
         {"name": "CSS3" , "class": "devicon-css3-plain"},
         {"name": "SASS" , "class": "devicon-sass-original"},
-        {"name": "LESS" , "class": "devicon-less-plain-wordmark"},
+        {"name": "React" , "class": "react-icon"},
         {"name": "Gulp JS" , "class": "devicon-gulp-plain"},
         {"name": "Angular JS" , "class": "devicon-angularjs-plain"},
         {"name": "Ionic" , "class": "ionic-icon"},
@@ -149,6 +149,15 @@
             "tools" : "Angular / HTML5 / Scketch / JSON",
             "category" : "Landing Page",
             "behance" : "https://fullstacktest.000webhostapp.com/#/"
+        },
+        {
+            "name" : "Task Manager",
+            "photo" : "taskmanager/taskmanager-thumbnail.png",
+            "detail" : "taskmanager/taskmanager.png",
+            "description" : "Task Manager Web Application",
+            "tools" : "React / JSX / Scketch / JSON",
+            "category" : "Web Application",
+            "behance" : "https://goethe-task-manager.herokuapp.com/"
         }
     ]
 }

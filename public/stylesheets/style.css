@@ -106,6 +106,7 @@
 	.skills .item i.ghost-icon{background: url("../images/svg/skills/ghost.svg") no-repeat center / 48px auto !important;}
 	.skills .item i.web-design-icon{background: url("../images/svg/skills/web_design.svg") no-repeat center / 55px auto !important;}
 	.skills .item i.sketch-icon{background: url("../images/svg/skills/sketch.svg") no-repeat center / 55px auto !important;}
+	.skills .item i.react-icon{background: url("../images/svg/skills/react.svg") no-repeat center / 55px auto !important;}
 	.skills .item span{display: inline-block; font: 11px "Montserrat"; width: 100%; text-transform: uppercase; margin-top: 8px;}
 
 	/* .skills .items{margin-top: 95px; display: inline-block; width: 100%;}
