@@ -57,7 +57,8 @@
         {"name": "Wordpress" , "class": "devicon-wordpress-plain"},
         {"name": "Web Design" , "class": "web-design-icon"},
         {"name": "Sketch" , "class": "sketch-icon"},
-        {"name": "Photoshop" , "class": "devicon-photoshop-plain"}
+        {"name": "Photoshop" , "class": "devicon-photoshop-plain"},
+        {"name": "Firebase" , "class": "firebase-icon"}
     ],
     "skills_" : [
         {
@@ -155,7 +156,7 @@
             "photo" : "taskmanager/taskmanager-thumbnail.png",
             "detail" : "taskmanager/taskmanager.png",
             "description" : "Task Manager Web Application",
-            "tools" : "React / JSX / Scketch / JSON",
+            "tools" : "React / JSX / Firebase / Scketch / JSON",
             "category" : "Web Application",
             "behance" : "https://goethe-task-manager.herokuapp.com/"
         }
