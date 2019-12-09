@@ -153,12 +153,21 @@
         },
         {
             "name" : "Task Manager",
-            "photo" : "taskmanager/taskmanager-thumbnail.png",
+            "photo" : "taskmanager/taskmanager.png",
             "detail" : "taskmanager/taskmanager.png",
             "description" : "Task Manager Web Application",
             "tools" : "React / JSX / Firebase / Scketch / JSON",
             "category" : "Web Application",
             "behance" : "https://goethe-task-manager.herokuapp.com/"
+        },
+        {
+            "name" : "Dummy Bank",
+            "photo" : "dummybank/dummybank.png",
+            "detail" : "dummybank/dummybank.png",
+            "description" : "Dummy bank transaction list web application",
+            "tools" : "Angular JS/ HTML5 / Firebase /  Scketch / JSON",
+            "category" : "Web Application",
+            "behance" : "https://ggoethe-bank.herokuapp.com/"
         }
     ]
 }
