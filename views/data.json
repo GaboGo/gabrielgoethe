@@ -168,6 +168,15 @@
             "tools" : "Angular JS/ HTML5 / Firebase /  Scketch / JSON",
             "category" : "Web Application",
             "behance" : "https://ggoethe-bank.herokuapp.com/"
+        },
+        {
+            "name" : "Voting App",
+            "photo" : "votingapp/voting-react-app.png",
+            "detail" : "votingapp/voting-react-app.png",
+            "description" : "Voting web app for polls",
+            "tools" : "React / HTML5 / SASS / Firebase / Photoshop / JSON",
+            "category" : "Web Application",
+            "behance" : "https://voting-react-app.herokuapp.com/home"
         }
     ]
 }
